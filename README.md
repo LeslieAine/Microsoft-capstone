@@ -100,8 +100,8 @@ npm install
 
 👤 **Leslie Aine**
 
-- GitHub: [@githubhandle](https://github.com/LeslieAine)
-- Twitter: [@twitterhandle](https://twitter.com/LeslieAine)
+- GitHub: [@LeslieAine](https://github.com/LeslieAine)
+- Twitter: [@LeslieAine](https://twitter.com/LeslieAine)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
