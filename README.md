@@ -45,7 +45,7 @@
 <details>
   <summary>Styling</summary>
   <ul>
-    <li><a href="https://tailwindcss.com/docs/installation">tailwindcss</a></a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></a></li>
   </ul>
 </details>
 
