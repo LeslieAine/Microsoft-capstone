@@ -286,7 +286,7 @@ hr {
 }
 
 .partner {
-    color: white;
+    color: #6f6c6b;
     align-self: center;
     justify-content: center;
 }
@@ -303,7 +303,7 @@ hr {
     width: 100px;
 }
 
-footer {
+.footer-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -311,7 +311,7 @@ footer {
 
 .commons-right {
     font-size: 12px;
-    margin-top: 30px;
+    margin-top: 18px;
     margin-right: 50px;
 }
 
@@ -410,9 +410,8 @@ footer {
 
     h1 {
         font-weight: 1000;
-        align-self: center;
-        justify-content: center;
         font-size: 80px;
+        text-align: left;
     }
 
     .page1-wrap {
@@ -423,25 +422,21 @@ footer {
 
     .page1 {
         width: 700px;
-        align-self: center;
-        justify-content: center;
+        text-align: left;
     }
 
     .page1-words-wrap {
-        align-self: center;
-        justify-content: center;
+        justify-content: left;
     }
 
     h2 {
-        align-self: center;
-        justify-content: center;
         font-size: 50px;
+        text-align: left;
     }
 
     .page1-location {
-        align-self: center;
-        justify-content: center;
         font-size: 30px;
+        text-align: left;
     }
 
     .main-program-container1 {
@@ -450,6 +445,7 @@ footer {
         width: 80%;
         align-self: center;
         justify-content: center;
+        margin-top: 40px;
     }
 
     .main-program {
@@ -464,6 +460,15 @@ footer {
 
     .main-program-icon {
         width: 80px;
+    }
+
+    .main-program-whole {
+        text-decoration-line: underline;
+        color: #d3d3d3;
+        justify-content: center;
+        align-self: center;
+        margin-top: 50px;
+        margin-bottom: 70px;
     }
 
     .speakers {
@@ -484,8 +489,14 @@ footer {
     }
 
     .footer {
-        justify-content: space-between;
-        margin-left: 300px;
-        margin-right: 300px;
+        display: flex;
+    }
+
+    .footer-icons {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        align-self: center;
     }
 }

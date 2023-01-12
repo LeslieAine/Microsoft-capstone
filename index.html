@@ -18,7 +18,7 @@
     <body>
 
         <header class="header" id="header">
-            <div class="topHeader desktop-only" id="topHeader">
+            <nav class="topHeader desktop-only" id="topHeader">
                 <img
                 class="topHeader-icon"
                 src="images/icons/facebook.png"
@@ -37,7 +37,7 @@
                 <!-- <button class="topHeader-button">English</button>
                 <button class="topHeader-button">My page</button>
                 <button class="topHeader-button">Logout</button> -->
-            </div>
+                </nav>
 
             <nav class="navbar desktop-only">
                 <!--*----------------- logo --------------------->
@@ -106,7 +106,7 @@
 
             <!-- mobile menu -->
 
-            <section class="mobile-menu mobile-only" id="mobile-menu">
+            <nav class="mobile-menu mobile-only" id="mobile-menu">
                 <!--* close_button -->
                 <img class="close-btn" src="images/close-button.png"alt="close button"/>
                 <ul class="menu-list">
@@ -153,7 +153,7 @@
                     >
                     </li>
                 </ul>
-            </section>
+            </nav>
             
         </header>
 
@@ -176,7 +176,8 @@
                     <hr />
                     <div class="main-program-container" id="main-program-container">
                         <div class="main-program-container1"></div>
-                        <button class="main-program-button">Join CC Global Summit 2023</button>
+                        <button class="main-program-button mobile-only">Join CC Global Summit 2023</button>
+                        <a href="#" class="main-program-whole desktop-only">SEE THE WHOLE PROGRAM</a>
                     </div>
                 </div>
             </div>
@@ -195,27 +196,28 @@
             <hr />
             <div class="partner-images">
                 <div class="img-row-1">
-                    <img class="partner-img" src="images/logos/mozilla.png" alt="" />
-                    <img class="partner-img" src="images/logos/naver.png" alt="" />
-                    <img class="partner-img" src="images/logos/lumen.png" alt="" />
+                    <img class="partner-img" src="images/logos/mozilla.png" alt="mozilla" />
+                    <img class="partner-img" src="images/logos/naver.png" alt="naver" />
+                    <img class="partner-img" src="images/logos/lumen.png" alt="lumen" />
                 </div>
                 <div class="img-row-1">
-                    <img class="partner-img" src="images/logos/airbnb.png" alt="" />
-                    <img class="partner-img" src="images/logos/line-friends.png" alt="" />
+                    <img class="partner-img" src="images/logos/airbnb.png" alt="airbnb" />
+                    <img class="partner-img" src="images/logos/line-friends.png" alt="line-friends" />
                 </div>
             </div>
         </section>
 
         <footer>
-            <div class="commons-logo">
-                <img class="commons-img" src="" alt="">
-                <h3 class="commons-word">creative</br>
-                    commons kla
-                </h3>
-            </div>
-            <div class="commons-right">
-                <p>2023 Creative Commons Kla</br>
-                    Some Rights Reserved</p>
+            <div class="footer-icons">
+                <div class="commons-logo">
+                    <h3 class="commons-word">creative</br>
+                        commons kla
+                    </h3>
+                </div>
+                <div class="commons-right">
+                    <p>2023 Creative Commons Kla</br>
+                        Some Rights Reserved</p>
+                </div>
             </div>
         </footer>
     </body>
