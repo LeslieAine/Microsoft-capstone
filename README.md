@@ -105,6 +105,12 @@ npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Tickets Page]**
+- [ ] **[Schedule Page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
